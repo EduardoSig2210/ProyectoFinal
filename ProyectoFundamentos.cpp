@@ -13,7 +13,7 @@ int main() {
 	cin >> opcion;
 	switch (opcion){ //clasificacion de la facultad de la universidad
 	case 1:
-		cout << "1-Arquitectura\n2-Ingenieeia de alimentos\n3-Ingenieria civil\n4-Ingenieria electrica\n5-Ingenieria energetica\n6-Ingenieria Industrial\n7-Ingeneria informatica\n8-Ingenieria mecanica\n9-Ingenieria quimica\nIngrese el numero de su carrera: ";
+		cout << "1-Arquitectura\n2-Ingenieria de alimentos\n3-Ingenieria civil\n4-Ingenieria electrica\n5-Ingenieria energetica\n6-Ingenieria Industrial\n7-Ingeneria informatica\n8-Ingenieria mecanica\n9-Ingenieria quimica\nIngrese el numero de su carrera: ";
 		cin >> opcion2;
 		if (ingenieria(opcion2)==1){
 			cout << "Bienvenido";
